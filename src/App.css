@@ -1,10 +1,74 @@
-.hoofd-container {
-  background-color: #f3f4f6;
-  text-align: center;
-  padding: 50px;
+/* Basis instellingen voor een strakke look */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.titel {
-  color: #d946ef;
-  font-family: Arial, sans-serif;
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* Dit is de paars-roze achtergrond */
+  background: linear-gradient(135deg, #fbcfe8 0%, #d8b4fe 100%);
+  background-attachment: fixed; /* Zorgt dat de achtergrond stil blijft staan tijdens het scrollen */
+  color: #333;
+  line-height: 1.6;
+  min-height: 100vh; /* Zorgt dat de kleur altijd het hele scherm vult */
+}
+
+/* Navigatiebalk */
+.navbar {
+  background-color: #bb129f; /* Een chique donkerroze/paarse tint */
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  border-bottom: 3px solid #fbcfe8; /* Een lichtroze accentlijn aan de onderkant */
+}
+
+.nav-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff; /* Witte tekst voor goed contrast */
+  text-decoration: none;
+}
+
+.nav-links a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #fbcfe8; /* Lichtroze linkjes */
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ffffff; /* Linkjes lichten helder wit op als je er met de muis over gaat */
+}
+
+/* Pagina container */
+.page-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Header sectie */
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #111;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  color: #666;
+  font-size: 1.1rem;
 }
