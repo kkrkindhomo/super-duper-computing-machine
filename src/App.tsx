@@ -1,6 +1,7 @@
 import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { useState } from 'react';
 import S1mple from './assets/pictures/S1mpleFAT.jpg'
+import introduction from './assets/pictures/image.png'
 import './App.css'; // Zorg dat de naam overeenkomt met jouw CSS bestand
 
 // --- HOME PAGINA ---
@@ -47,8 +48,10 @@ const About = () => (
     <div className="hero">
       <h1>Over Horny Housewives</h1>
       <p>
-        Deze site is eigendom van het D-block empire.
+        Deze site is eigendom van het <strong>D-block empire</strong>!
       </p>
+      <br />
+      <img src={introduction} alt="" />
     </div>
   </div>
 );
