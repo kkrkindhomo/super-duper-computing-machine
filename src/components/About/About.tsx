@@ -1,4 +1,4 @@
-import introduction from '../../assets/pictures/image.png';
+import introduction from '../../assets/pictures/PieterIntro.png';
 import './About.css';
 
 export default function About() {
