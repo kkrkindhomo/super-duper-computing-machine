@@ -1,7 +1,6 @@
 import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './components/Home/Home';
 import About from './components/About/About';
-import BigGL from './components/BigGL/BigGL';
 import './App.css';
 
 export default function App() {
@@ -31,7 +30,6 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/biggl" element={<BigGL />} />
       </Routes>
     </Router>
   );
