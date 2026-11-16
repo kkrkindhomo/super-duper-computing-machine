@@ -23,7 +23,6 @@ export default function App() {
         <div className="nav-links">
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
-          <Link to="/biggl">BigGL</Link>
         </div>
       </nav>
 
