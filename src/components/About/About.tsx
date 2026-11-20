@@ -9,8 +9,7 @@ export default function About() {
         <p>
           Deze site is eigendom van het <strong>D-block empire</strong>!
         </p>
-        <br />
-        <img src={introduction} alt="" />
+        <img src={introduction} alt="Introductie" />
       </div>
     </div>
   );
