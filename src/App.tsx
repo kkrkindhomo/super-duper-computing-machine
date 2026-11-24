@@ -1,6 +1,7 @@
 import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './components/Home/Home';
 import About from './components/About/About';
+import Contact from './components/Contact/Contact';
 import logo from './assets/Logo/HornyHouswives-Enkel88-Logo.jpg';
 import './App.css';
 
@@ -15,12 +16,14 @@ export default function App() {
         <div className="nav-links">
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
+          <Link to="/contact">Contact</Link>
         </div>
       </nav>
 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
 
       <footer className="footer">
