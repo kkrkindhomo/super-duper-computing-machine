@@ -48,7 +48,7 @@ export default function Contact() {
       <div className="hero">
         <h1>Contact</h1>
         <p>
-          Heeft u een vraag of wilt u een probleem melden? Vul hier
+          Heb je een vraag of wil je een probleem melden? Vul hier
           je gegevens in en beschrijf kort je probleem — Lisa neemt contact met
           je op.
         </p>
